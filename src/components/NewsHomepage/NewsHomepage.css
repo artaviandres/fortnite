@@ -1,0 +1,20 @@
+.newsHomepageWrapper {
+  height: 441px;
+  display: flex;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px; }
+  .newsHomepageWrapper .leftSection {
+    height: 100%;
+    width: 65%; }
+  .newsHomepageWrapper .rightSection {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column; }
+    .newsHomepageWrapper .rightSection .first {
+      height: 50%;
+      width: 100%; }
+    .newsHomepageWrapper .rightSection .second {
+      height: 50%;
+      width: 100%; }

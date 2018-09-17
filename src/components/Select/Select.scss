@@ -1,0 +1,19 @@
+@import '../../styles/_colors.scss';
+@import '../../styles/_variables.scss';
+
+select {
+  height: 36px;
+  width: 217px;
+  border-radius: 10px;
+  background-color: #1E042D;
+  color: white;
+  font-family: $regular;
+  font-size: 18px;
+  border: none;
+  text-align-last: center;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
+}

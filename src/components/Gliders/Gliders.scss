@@ -1,0 +1,31 @@
+@import '../../styles/_colors.scss';
+@import '../../styles/_variables.scss';
+
+.glidersWrapper {
+  width: 100vw;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.arrowsWrapper {
+  height: 68px;
+  width: 222px;
+  margin-bottom: 100px;
+  margin: 0 0 100px 74%;
+  box-shadow: $boxShadow;
+  display: flex;
+
+  .arrow {
+    background-color: $lightPurple;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $purple;
+    }
+  }
+}

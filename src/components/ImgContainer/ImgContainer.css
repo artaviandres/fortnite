@@ -1,0 +1,35 @@
+.gliderWrapper {
+  height: 300px;
+  width: 220px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column; }
+  .gliderWrapper .info {
+    background-color: #330552;
+    height: 85px;
+    display: flex; }
+    .gliderWrapper .info .titleAndPrice {
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      height: 100%;
+      padding-left: 24px; }
+      .gliderWrapper .info .titleAndPrice h2 {
+        font-size: 18px;
+        font-family: "Montserrat";
+        margin-bottom: 2px; }
+      .gliderWrapper .info .titleAndPrice .priceWrapper {
+        display: flex;
+        align-items: center; }
+        .gliderWrapper .info .titleAndPrice .priceWrapper p {
+          margin-left: 10px;
+          font-family: "Montserrat";
+          font-size: 14px; }
+    .gliderWrapper .info .infoButton {
+      display: flex;
+      width: 30%;
+      height: 100%;
+      align-items: center;
+      justify-content: center; }
+      .gliderWrapper .info .infoButton img {
+        cursor: pointer; }

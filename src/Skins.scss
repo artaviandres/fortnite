@@ -1,0 +1,9 @@
+@import './styles/_colors.scss';
+@import './styles/_variables.scss';
+
+.skinsWrapper {
+  h1 {
+    font-family: $bold;
+    font-size: 48px;
+  }
+}

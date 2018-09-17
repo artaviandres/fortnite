@@ -1,0 +1,33 @@
+.filtersWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  .filtersWrapper h5 {
+    font-family: "MontserratThin";
+    font-size: 18px;
+    margin-right: 25px; }
+  .filtersWrapper .blockWrapper {
+    width: 350px;
+    display: flex;
+    align-items: center; }
+  .filtersWrapper .searchWrapper {
+    margin-left: 20%; }
+    .filtersWrapper .searchWrapper input {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #fff;
+      color: white;
+      font-family: "MontserratThin";
+      font-size: 14px;
+      height: 32px;
+      width: 221px; }
+      .filtersWrapper .searchWrapper input:focus {
+        outline: 0; }
+      .filtersWrapper .searchWrapper input::placeholder {
+        color: white; }
+    .filtersWrapper .searchWrapper img {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      margin-left: -29px;
+      margin-top: 5px; }

@@ -1,0 +1,20 @@
+.newsHomepageItemWrapper {
+  position: relative;
+  text-align: center;
+  cursor: pointer; }
+  .newsHomepageItemWrapper .textContainer {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .newsHomepageItemWrapper h2 {
+    text-align: left;
+    font-family: "MontserratBold";
+    margin-bottom: 5px; }
+  .newsHomepageItemWrapper h3 {
+    text-align: left;
+    font-family: "MontserratSemiBold";
+    margin: 0; }

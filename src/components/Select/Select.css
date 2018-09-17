@@ -1,0 +1,13 @@
+select {
+  height: 36px;
+  width: 217px;
+  border-radius: 10px;
+  background-color: #1E042D;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 18px;
+  border: none;
+  text-align-last: center;
+  cursor: pointer; }
+  select:focus {
+    outline: 0; }

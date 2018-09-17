@@ -1,0 +1,15 @@
+h1 {
+  font-family: "MontserratBold";
+  font-size: 30px;
+  margin: 0; }
+
+.titleWrapper {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px; }
+  .titleWrapper a {
+    padding-bottom: 4px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Montserrat"; }

@@ -1,0 +1,22 @@
+@import 'styles/_colors.scss';
+@import 'styles/_variables.scss';
+
+h1 {
+  font-family: $bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+
+  a {
+    padding-bottom: 4px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: $regular;
+  }
+}
